@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+	int marks;
+	clrscr();
+	
+	printf("Enter your average marks");
+	scanf("%d",&marks);
+	if (marks >=85)
+	     printf("You got A grade");
+	
+	else if(marks >=70);
+		printf("You got B grade");
+	
+	else if(marks >=55);
+		printf("You got C grade");
+	
+	else if(marks >=40);
+		printf("You got D grade");
+	
+	else if(marks <=40);
+		printf(" You got F grade");
+	
+	getch()
+	return 0;
+}
